@@ -60,7 +60,7 @@ Image_E762B6F8_BD3B_B8CD_41D2_C4A8F4BE5983.url = skin/Image_E762B6F8_BD3B_B8CD_4
 ## Tour
 
 ### Description
-tour.description = Tour 360 graus
+tour.description = Veja por dentro
 
 ### Title
-tour.name = LampLuz Iluminação
+tour.name = Neurocrescer

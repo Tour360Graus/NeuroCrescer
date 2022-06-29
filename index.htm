@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <title>LampLuz Iluminação</title>
+    <title>Neurocrescer</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" id="metaViewport" content="user-scalable=no, initial-scale=1, width=device-width, viewport-fit=cover" data-tdv-general-scale="0.5"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <script src="lib/tdvplayer.js?v=1656534075791"></script>
-    <link rel="preload" href="locale/pt.txt?v=1656534075791" as="fetch" crossorigin="anonymous"/>
-	<link rel="preload" href="script.js?v=1656534075791" as="script"/>
-	<link rel="preload" href="media/panorama_FFB6FFBC_BB2D_8945_41D6_E7FB86223584_0/r/3/0_0.jpg?v=1656534075791" as="image"/>
-	<link rel="preload" href="media/panorama_FFB6FFBC_BB2D_8945_41D6_E7FB86223584_0/l/3/0_0.jpg?v=1656534075791" as="image"/>
-	<link rel="preload" href="media/panorama_FFB6FFBC_BB2D_8945_41D6_E7FB86223584_0/u/3/0_0.jpg?v=1656534075791" as="image"/>
-	<link rel="preload" href="media/panorama_FFB6FFBC_BB2D_8945_41D6_E7FB86223584_0/d/3/0_0.jpg?v=1656534075791" as="image"/>
-	<link rel="preload" href="media/panorama_FFB6FFBC_BB2D_8945_41D6_E7FB86223584_0/f/3/0_0.jpg?v=1656534075791" as="image"/>
-	<link rel="preload" href="media/panorama_FFB6FFBC_BB2D_8945_41D6_E7FB86223584_0/b/3/0_0.jpg?v=1656534075791" as="image"/>
+    <script src="lib/tdvplayer.js?v=1656536940290"></script>
+    <link rel="shortcut icon" href="favicon.ico?v=1656536940290">
+	<link rel="icon" sizes="48x48 32x32 16x16" href="favicon.ico?v=1656536940290">
+	<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="misc/icon180.png?v=1656536940290">
+	<link rel="icon" type="image/png" sizes="16x16" href="misc/icon16.png?v=1656536940290">
+	<link rel="icon" type="image/png" sizes="32x32" href="misc/icon32.png?v=1656536940290">
+	<link rel="icon" type="image/png" sizes="192x192" href="misc/icon192.png?v=1656536940290">
+	<link rel="manifest" href="manifest.json?v=1656536940290">
+	<meta name="msapplication-TileColor" content="#006666">
+	<meta name="msapplication-config" content="browserconfig.xml">
+	<link rel="preload" href="locale/pt.txt?v=1656536940290" as="fetch" crossorigin="anonymous"/>
+	<link rel="preload" href="script.js?v=1656536940290" as="script"/>
+	<link rel="preload" href="media/panorama_FFB6FFBC_BB2D_8945_41D6_E7FB86223584_0/r/3/0_0.jpg?v=1656536940290" as="image"/>
+	<link rel="preload" href="media/panorama_FFB6FFBC_BB2D_8945_41D6_E7FB86223584_0/l/3/0_0.jpg?v=1656536940290" as="image"/>
+	<link rel="preload" href="media/panorama_FFB6FFBC_BB2D_8945_41D6_E7FB86223584_0/u/3/0_0.jpg?v=1656536940290" as="image"/>
+	<link rel="preload" href="media/panorama_FFB6FFBC_BB2D_8945_41D6_E7FB86223584_0/d/3/0_0.jpg?v=1656536940290" as="image"/>
+	<link rel="preload" href="media/panorama_FFB6FFBC_BB2D_8945_41D6_E7FB86223584_0/f/3/0_0.jpg?v=1656536940290" as="image"/>
+	<link rel="preload" href="media/panorama_FFB6FFBC_BB2D_8945_41D6_E7FB86223584_0/b/3/0_0.jpg?v=1656536940290" as="image"/>
 	<script src="scorm.js" type="text/javascript"></script>
-	<meta name="description" content="Tour 360 graus"/>
+	<meta name="description" content="Veja por dentro"/>
 	<meta name="theme-color" content="#006666"/>
-    <script src="script.js?v=1656534075791"></script>
+    <script src="script.js?v=1656536940290"></script>
     <script type="text/javascript">
         var tour;
-        var devicesUrl = {"general":"script_general.js?v=1656534075791","mobile":"script_mobile.js?v=1656534075791"};
+        var devicesUrl = {"general":"script_general.js?v=1656536940290","mobile":"script_mobile.js?v=1656536940290"};
 
         (function()
         {
@@ -64,9 +73,9 @@
 
             var settings = new TDV.PlayerSettings();
             settings.set(TDV.PlayerSettings.CONTAINER, document.getElementById('viewer'));
-            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1656534075791');
-            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1656534075791');
-            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1656534075791');
+            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1656536940290');
+            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1656536940290');
+            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1656536940290');
 
             tour = new TDV.Tour(settings, devicesUrl);
             tour.bind(TDV.Tour.EVENT_TOUR_INITIALIZED, onVirtualTourInit);
@@ -312,7 +321,7 @@
         #viewer { z-index:1; }
         #preloadContainer { z-index:2; opacity:0; background-color:rgba(0,102,102,1); transition: opacity 0.5s; -webkit-transition: opacity 0.5s; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s;}
     </style>
-    <link rel="stylesheet" href="fonts.css?v=1656534075791">
+    <link rel="stylesheet" href="fonts.css?v=1656536940290">
 </head>
 <body>
     <div id="preloadContainer" class="fill-viewport"><div style="z-index: 4; position: absolute; background-image: url('loading/HTMLImage_E4A51489_BD2E_9F4F_4180_CFFE907886A5.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; right: 38.91001267427128%; top: 40.459715639810426%; width: 22.06%; height: 8.15%"></div><div style="z-index: 5; position: absolute; left: 0%; top: 50%; width: 100.00%; height: 10.00%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;font-size:1.666666666666666vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-size:1.67vmin;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;">TOUR 360 GRAUS </SPAN></SPAN></DIV></div></div></div>
