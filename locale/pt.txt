@@ -3,9 +3,9 @@
 ## Action
 
 ### URL
+LinkBehaviour_BB998E66_A73B_8B4D_41DC_2B2DC63F000F.source = http://wa.me/5548988428820
 LinkBehaviour_80DD4EDD_A75A_8B7F_41D3_0ED416E232CB.source = http://wa.me/5548988428820
 LinkBehaviour_80DC5ED3_A75A_8B4B_41E4_75295773C60F.source = http://wa.me/5548988428820
-LinkBehaviour_BB998E66_A73B_8B4D_41DC_2B2DC63F000F.source = http://wa.me/5548988428820
 LinkBehaviour_AA3E6ECA_A52A_8BB7_41E1_5316182CC09F.source = http://wa.me/5548988428820
 LinkBehaviour_9BACBC06_AB27_8F31_41B6_366B8C15E68F.source = https://g.page/r/CaCnUZ1_fwREEAg/review
 LinkBehaviour_9ABD1489_AB2B_9F30_41C6_699D6F190200.source = https://g.page/r/CaCnUZ1_fwREEAg/review
