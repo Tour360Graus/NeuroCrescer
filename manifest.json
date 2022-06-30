@@ -1,9 +1,9 @@
 {
  "name": "Neurocrescer",
- "theme_color": "#006666",
+ "theme_color": "#009999",
  "description": "Veja por dentro",
  "display": "fullscreen",
- "background_color": "#006666",
+ "background_color": "#009999",
  "icons": [
   {
    "sizes": "150x150",
